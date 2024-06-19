@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+</head>
+<body>
+    <div class="cart">
+        <!-- Each cart item with price and buttons for adding to cart and liking -->
+        <div class="cart-item" data-price="10">
+            <p>Item 1: $10</p>
+            <button class="add-btn">Add to Cart</button>
+            <button class="like-btn">&#x2661;</button> 
+        </div>
+        <div class="cart-item" data-price="20">
+            <p>Item 2: $20</p>
+            <button class="add-btn">Add to Cart</button>
+            <button class="like-btn">&#x2661;</button>
+        </div>
+        <div class="cart-item" data-price="30">
+            <p>Item 3: $30</p>
+            <button class="add-btn">Add to Cart</button>
+            <button class="like-btn">&#x2661;</button>
+        </div>
+        <div class="cart-item" data-price="15">
+            <p>Item 4: $15</p>
+            <button class="add-btn">Add to Cart</button>
+            <button class="like-btn">&#x2661;</button>
+        </div>
+        <div class="cart-item" data-price="25">
+            <p>Item 5: $25</p>
+            <button class="add-btn">Add to Cart</button>
+            <button class="like-btn">&#x2661;</button>
+        </div>
+        <div class="cart-item" data-price="40">
+            <p>Item 6: $40</p>
+            <button class="add-btn">Add to Cart</button>
+            <button class="like-btn">&#x2661;</button>
+        </div>
+    </div>
+    <!-- Display the total price -->
+    <p>Total: $<span id="total-price">0.00</span></p>
+    <script src="javascript/index.js"></script>
+</body>
+</html>
